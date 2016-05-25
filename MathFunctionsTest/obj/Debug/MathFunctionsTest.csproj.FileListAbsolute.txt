@@ -1,0 +1,10 @@
+C:\Coding\MathFunctions\MathFunctionsTest\bin\Debug\MathFunctionsTest.dll
+C:\Coding\MathFunctions\MathFunctionsTest\bin\Debug\MathFunctionsTest.pdb
+C:\Coding\MathFunctions\MathFunctionsTest\bin\Debug\MathFunctions.exe
+C:\Coding\MathFunctions\MathFunctionsTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Coding\MathFunctions\MathFunctionsTest\bin\Debug\nunit.framework.dll
+C:\Coding\MathFunctions\MathFunctionsTest\bin\Debug\MathFunctions.pdb
+C:\Coding\MathFunctions\MathFunctionsTest\bin\Debug\nunit.framework.xml
+C:\Coding\MathFunctions\MathFunctionsTest\obj\Debug\MathFunctionsTest.csprojResolveAssemblyReference.cache
+C:\Coding\MathFunctions\MathFunctionsTest\obj\Debug\MathFunctionsTest.dll
+C:\Coding\MathFunctions\MathFunctionsTest\obj\Debug\MathFunctionsTest.pdb

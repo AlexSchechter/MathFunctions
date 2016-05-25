@@ -1,29 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace MathFunctions
 {
-    public class SumOfFunctions
+    public class SumOfFunctions : IMathFunction
     {
-        private List<IMathFunction> MathFunctions;
+        private List<IMathFunction> fMathFunctions;
+
+        public List<IMathFunction> ListOfMathFunctions
+        {
+            get { return fMathFunctions; }
+        }
 
         public SumOfFunctions(List<IMathFunction> mathFunctions)
         {
-            MathFunctions = mathFunctions;
+            fMathFunctions = mathFunctions;
         }
 
-        public double SumAllMathFunctionsResults (double value)
+        public double CalculateFunction(double value)
         {
             double result = 0;
-            foreach (IMathFunction mathfunction in MathFunctions)
+            foreach (IMathFunction mathfunction in fMathFunctions)
             {
                 result += mathfunction.CalculateFunction(value);
             }
             return result;
         }
 
+        public void AddMathFunction(IMathFunction mathFunction)
+        {
+            fMathFunctions.Add(mathFunction);
+        }
     }
 }

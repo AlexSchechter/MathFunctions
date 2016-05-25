@@ -1,1 +1,14 @@
 C:\Coding\MathFunctions\MathFunctions\bin\Debug\MathFunctions.exe.config
+C:\Coding\MathFunctions\MathFunctions\bin\Debug\MathFunctions.exe
+C:\Coding\MathFunctions\MathFunctions\bin\Debug\MathFunctions.pdb
+C:\Coding\MathFunctions\MathFunctions\obj\Debug\MathFunctions.csprojResolveAssemblyReference.cache
+C:\Coding\MathFunctions\MathFunctions\obj\Debug\MainWindow.g.cs
+C:\Coding\MathFunctions\MathFunctions\obj\Debug\App.g.cs
+C:\Coding\MathFunctions\MathFunctions\obj\Debug\MathFunctions_MarkupCompile.cache
+C:\Coding\MathFunctions\MathFunctions\obj\Debug\MathFunctions_MarkupCompile.lref
+C:\Coding\MathFunctions\MathFunctions\obj\Debug\MainWindow.baml
+C:\Coding\MathFunctions\MathFunctions\obj\Debug\MathFunctions.g.resources
+C:\Coding\MathFunctions\MathFunctions\obj\Debug\MathFunctions.Properties.Resources.resources
+C:\Coding\MathFunctions\MathFunctions\obj\Debug\MathFunctions.csproj.GenerateResource.Cache
+C:\Coding\MathFunctions\MathFunctions\obj\Debug\MathFunctions.exe
+C:\Coding\MathFunctions\MathFunctions\obj\Debug\MathFunctions.pdb

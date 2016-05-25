@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Cube.cs" />
     <Compile Include="IMathFunction.cs" />
     <Compile Include="Square.cs" />
     <Compile Include="SumOfFunctions.cs" />
