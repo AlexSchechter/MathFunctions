@@ -10,11 +10,15 @@ namespace MathFunctionsTest
 
         [TestCase(0, 0, 0)]
         [TestCase(1, 1, 1)]
+        [TestCase(1, -1, -1)]
+        [TestCase(-3, 2, -6)]
+        [TestCase(3, -2, -6)]
+        [TestCase(-3, -2, 6)]
         [TestCase(5, 10, 50)]
-        public void CalculateFunctionReturnsCorrectResult(double constant, double value, double result)
+        public void CalculateFunctionReturnsCorrectResult(double constant, double inputValue, double expectedResult)
         {
             GivenLinearClass(constant);
-            ThenCalculateFunctionReturnsCorrectResult(value, result);
+            ThenCalculateFunctionReturnsCorrectResult(inputValue, expectedResult);
         }
 
         private void GivenLinearClass(double constant)
@@ -22,9 +26,9 @@ namespace MathFunctionsTest
             fLinear = new Linear(constant);
         }
 
-        private void ThenCalculateFunctionReturnsCorrectResult(double value, double result)
+        private void ThenCalculateFunctionReturnsCorrectResult(double inputValue, double expectedResult)
         {
-            Assert.AreEqual(result, fLinear.CalculateFunction(value));
+            Assert.AreEqual(expectedResult, fLinear.CalculateFunction(inputValue));
         }
 
     }
